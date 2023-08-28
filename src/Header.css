@@ -6,6 +6,12 @@ left: 0px;
 top: 3px;
 background: #2C0046;
 }
+.phone{
+display: block;
+}
+.pc{
+    display: none;
+}
 .top{
 position: absolute;
 width: 100%;
@@ -251,4 +257,12 @@ top: 214px;
     font-size: 22px;
     width: 13%;
 }
+}
+@media(max-width:900px){
+    .phone{
+        display: none;
+    }
+    .pc{
+        display: block;
+    }
 }

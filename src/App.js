@@ -6,10 +6,16 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-     <Header/><br/>
+    <div className='phone'> <Header/><br/>
      <Bod/>
      <Bod2/>
-     <Footer/>
+     <Footer/></div>
+     <div className='pc'>
+      <p>
+        This websites was built and designed only for devices of width
+        900px and above 
+      </p>
+     </div>
     </div>
   );
 }
